@@ -37,7 +37,7 @@ export default function Navbar() {
             <div className="flex flex-none items-center justify-center border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-black h-[40px] w-[40px] rounded-xl">
               <Image src={Logo} alt="Logo" width={38} height={38} priority />
             </div>
-            <div className="ml-2 flex-none text-lg font-bold uppercase md:hidden lg:block">
+            <div className="ml-2 flex-none text-lg font-bold uppercase md:hidden lg:block text-black">
               Acme Store
             </div>
           </a>
